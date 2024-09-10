@@ -3,6 +3,15 @@ let radius = 5;
 const PI = 3.1415;
 const area = PI * radius * radius;
 const plantArea = 0.8;
+let limit = area / plantArea;
+console.log(
+  `The limit for a garden with a ` +
+    radius +
+    `-meter radius is ` +
+    limit +
+    ` plants.`
+);
+
 /* Where "n" is the number of plants */
 let n = 20; //`The area is starting with 20 plants.`
 let week = 1;
